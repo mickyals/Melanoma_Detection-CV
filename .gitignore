@@ -1,0 +1,3 @@
+# ignore all files with made by augmentor
+
+/Skin cancer ISIC The International Skin Imaging Collaboration/Train/**/output
