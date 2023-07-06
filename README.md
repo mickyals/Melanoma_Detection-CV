@@ -9,6 +9,8 @@
 
 The final model has a single dense layer of 9 neurons to supply a softmax activation, with hidden layers of 3x3x2^(n+3) convolutions in each hidden layer followed by max pooling. 
 
+** n is the layer number
+
 > Structure of Model
 
 | Layer (type)            | Output Shape     | Param #    |
@@ -34,7 +36,7 @@ The final model has a single dense layer of 9 neurons to supply a softmax activa
 | Non-trainable params    | 0                |            |
 |_________________________|__________________|____________|
 
-Here's the table representation of the given information.
+After 70 epochs, the model achieved a 76% accuracy and 0.6 cross entropy loss. While not best, it mainly shows that convolutional layers alone can be used to provide pretty good classification results.
 
 
 > Note the original dataset can be found [here](https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic), the dataset within this repo includes augmented images created using the original dataset. 
